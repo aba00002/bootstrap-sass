@@ -1,1 +1,156 @@
 @import url('https://fonts.googleapis.com/css?family=Merriweather|Raleway&display=swap');
+
+:root{
+    --navBgColor:hsl(54, 100%, 50%);
+    --containerColor:hsl(54,100%,90%);
+    --h1h2h5Color:hsl(0, 3%, 6%);
+    --h3Color:hsl(229, 78%, 42%);
+  }
+
+  * {
+    font-family: Raleway, Arial, sans-serif;
+  }
+
+  h1,h2,h3,h4,h5{
+    font-family: Merriweather, "Times New Roman", serif;
+  }
+
+  h1,h2,h4,h5, footer, p, label, input {
+    color: var(--h1h2h5Color);
+  }
+
+  h3 {
+    color: var(--h3Color);
+  }
+
+  .icon {
+    background: url('https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg'); /*Image was from wikimdeia*/
+    height: 20px;
+    width: 20px;
+    display: block;
+    /* Other styles here */
+  }
+
+  .iconCss {
+    background: url('http://icons.iconarchive.com/icons/graphics-vibe/developer/24/css-icon.png'); /*Image was from iconarchive*/
+    height: 25px;
+    width: 25px;
+    display: block;
+  }
+
+  .iconBootstrap {
+    background: url('../img/1200px-Bootstrap_logo.svg.png'); /*Image was from Google Images*/
+    height: 25px;
+    width: 25px;
+    display: block;
+  }
+
+  .iconJs {
+    background: url('../img/img_js.png'); /*google images*/
+    height: 30px;
+    width: 30px;
+    display: block;
+  } 
+
+  .iconSass {
+    background: url('https://upload.wikimedia.org/wikipedia/commons/9/96/Sass_Logo_Color.svg');
+    height: 30px;
+    width: 30px;
+    display: block;
+    /*Image credit to wikipedia images AKA wikimedia */
+  }
+
+  .iconGit {
+    background: url('http://icons.iconarchive.com/icons/papirus-team/papirus-apps/32/github-icon.png');
+    height: 30px;
+    width: 30px;
+    display: block;
+    /*Image credit to Icon archive*/
+  }
+
+  .iconPy {
+    background: url('http://icons.iconarchive.com/icons/cornmanthe3rd/plex/32/Other-python-icon.png');
+    height: 30px;
+    width: 30px;
+    display: block;
+    /*Image credit to Icon archive*/
+  }
+  
+  .iconSql {
+    background: url('http://icons.iconarchive.com/icons/custom-icon-design/pretty-office-7/32/Sql-runner-icon.png');
+    height: 30px;
+    width: 30px;
+    display: block;
+    /*Image credit to Icon archive*/
+  }
+
+  .container{
+    background-color: var(--containerColor);
+  }
+
+  .navbar {
+    background-color:var(--navBgColor);
+}
+    
+.navbar-light .navbar-nav .nav-link, .navbar-light .navbar-nav .active>.nav-link {
+    color: var(--h1h2h5Color);
+  }
+  
+  .image {
+    width: auto;
+    height: 800px;
+    background-size: 100% 100%;
+    background-image: url(../img/william-katerberg-t3oJtyU4q7Y-unsplash.jpg);
+    background-repeat: no-repeat;
+  }
+  
+  h1 {
+    text-shadow: 2px 2px var(--navBgColor);
+    font-size: 7rem;
+    padding-top: 80px;
+  }
+
+
+  footer{
+    background-image: url(../img/ronald-cuyan-AJgFLjnmSs4-unsplash.jpg);
+  }
+
+  .container-fluid{
+    padding:20px;
+  }
+  
+  h2{
+    text-align-last: center;
+    padding:30px;
+  }
+  
+  img{
+    width: 25rem;
+    height: 25rem;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  main{
+    padding: 20px 0px;
+  }
+  
+  .card-deck {
+    padding: 20px 0px;
+  }
+
+  .col-lg-6 {
+    padding-bottom: 20px;
+  }
+
+  .col-md-12 {
+    padding-bottom: 20px;
+  }
+  
+  @media only screen and (max-width: 650px) {
+    .container {
+      min-width: 100%;
+    }
+  } 
